@@ -2,7 +2,7 @@
   flex: 1;
   border-right: 0.5px solid rgb(214, 216, 216);
   min-height: 100vh;
-  background-color: lightyellow;
+  background-color: white;
 
   .top {
     height: 50px;
@@ -41,11 +41,23 @@
       li {
         display: flex;
         align-items: center;
-        padding: 5px;
+        padding: 9.5px;
         cursor: pointer;
 
         &:hover {
-          background-color: yellow;
+          background-color: lightyellow;
+        }
+
+        .icon{
+          font-size: 18px;
+          color: purple;
+        }
+
+        span{
+          font-size: 14px;
+          font-weight: 600;
+          color: black;
+          margin-left: 10px;
         }
       }
     }

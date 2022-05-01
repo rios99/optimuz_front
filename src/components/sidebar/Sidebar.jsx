@@ -31,7 +31,7 @@ const Sidebar = () => {
           <p className="title">USUARIOS</p>
           <li>
             <PersonIcon className="icon" />
-            <span>Clientes</span>
+            <span>Socios</span>
           </li>
           <li>
             <AccountBoxIcon className="icon" />
